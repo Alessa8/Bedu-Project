@@ -1,0 +1,20 @@
+.social-media-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  padding: 32px;
+  background-color: rgb(46, 45, 45);
+  color: white;
+}
+
+.social-media-icons {
+  margin-left: 40px;
+  display:flex;
+  flex-direction: row;
+}
+
+.social-media-icons a {
+  display: block;
+  width: 30px;
+  margin: 10px;
+}
