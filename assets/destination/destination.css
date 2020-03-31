@@ -1,0 +1,36 @@
+.destinos-container { 
+    padding: 40px;
+}
+
+.destinos-container > header {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px grey;
+
+}
+
+.destinos-container header h2{
+    font-weight: normal;
+}
+
+.destinos-grid {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax( 30%, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.destino-card {
+    text-align: center;
+}
+
+.destino-img {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 250px;
+    background-color: #444;
+    background-size: cover;
+    background-position: center;
+    border-radius: 4px;
+
+}
